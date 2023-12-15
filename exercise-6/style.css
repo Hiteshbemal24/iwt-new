@@ -1,0 +1,158 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #F0F8FF;
+    text-align: center;
+    background-size: cover;
+}
+
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #FFD700;
+}
+header h1 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+header logo {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+
+}
+header logo img {
+    width: 50px;
+    height: 50px;
+}
+#department1 img, #department2 img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+#department1 img, #department2 img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+#department img {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+}
+#department h3, #department h3 {
+    color: #333;
+    font-size: 10px;
+    margin: 20px 0;
+}
+
+container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+.form-container form {
+    padding: 20px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    width:400px;
+}
+.form-container form h3 {
+   font-size: 30px;
+   text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#333;
+}
+.form-container form input {
+    width: 300px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    font-size: 17px;
+    background: #eee;
+    border-radius: 5px;
+}
+.form-container form .form-btn {
+    font-size: 20px;
+    background: #f2f2f2;
+    color: chocolate;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.form-container form .form-btn:hover {
+    background: chocolate;
+    color: #f2f2f2;
+}
+.form-container form p {
+    font-size: 20px;
+    margin-top: 10px;
+    color:#333;
+}
+.form-container form a {
+    text-decoration: none;
+    color: chocolate;
+}
+.form-container form .error-msg {
+    color: #f2f2f2;
+    font-size: 20px;
+    margin: 10px 0;
+    display: block;
+    background: chocolate;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+

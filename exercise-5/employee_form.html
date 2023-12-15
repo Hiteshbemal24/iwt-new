@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Details Form</h2>
+        <form action="process.php" method="POST">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" name="salary" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"><br
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">Male
+            <input type="radio" id="female" name="gender" value="Female">Female<br
+
+            <label for="skills">Skills:</label>
+              <input type="checkbox" id="skill1" name="skills[]" value="react">Reactjs
+              <input type="checkbox" id="skill2" name="skills[]" value="javascript">JavaScript
+              <input type="checkbox" id="skill3" name="skills[]" value="java">Java
+              <input type="checkbox" id="skill4" name="skills[]" value="python">Python
+              <input type="checkbox" id="skill5" name="skills[]" value="php">PHP<br>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="HR">HR</option>
+                <option value="IT">IT</option>
+                <option value="Finance">Finance</option>
+                <option value="Sales">Sales</option>
+            </select><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
